@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bnails App</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="content-language" content="vi">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="./assets/images/favicon.ico"/>
+	<link rel="stylesheet" href="./assets/plugins/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugins/owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="./assets/plugins/swiper/swiper.min.css">
+	<link rel="stylesheet" href="./assets/plugins/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="./assets/plugins/animate.min.css">
+	<link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="./assets/fonts/flaticon/flaticon.css">
+	<link rel="stylesheet" href="./assets/scss/style.css">
+</head>
+<body>
+
+<div id="app-bnails">
+	<header class="header">
+		<div class="header-decor">
+			<div class="decor-item decor-item--1"></div>
+			<div class="decor-item decor-item--2"></div>
+			<div class="decor-item decor-item--3"></div>
+		</div>
+		<div class="header-main">
+			<div class="header-main--top">
+				<div class="actions">
+					<div id="hamburger" class="hamburger"><span></span></div>
+					<div id="notification" class="notification">
+						<a href="javascript:void(0)">
+							<i class="fal fa-bell"></i>
+							<span>19</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-main--bottom">
+				<div class="info">
+					<div class="info-image">
+						<img src="./assets/images/avatar.jpg" alt="Ike Puspita Sari">
+					</div>
+					<div class="info-content">
+						<div class="info-content--fullname">
+							Ike Puspita Sari
+						</div>
+						<div class="info-content--email">
+							ikepuspitasari@gmail.com
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-navigation">
+			<div class="info">
+				<div class="info-image">
+					<img src="./assets/images/avatar.jpg" alt="Ike Puspita Sari">
+				</div>
+				<div class="info-content">
+					<div class="info-content--fullname">
+						Ike Puspita Sari
+					</div>
+					<div class="info-content--email">
+						ikepuspitasari@gmail.com
+					</div>
+				</div>
+			</div>
+			<div class="navigation">
+				<ul class="list-unstyled">
+					<li>
+						<a href="gallery.html">
+							<div class="navigation-item">
+								<div class="navigation-item--icon">
+									<div class="flaticon-image-gallery"></div>
+								</div>
+								<div class="navigation-item--title">
+									Gallery Image
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="new-promotion.html">
+							<div class="navigation-item">
+								<div class="navigation-item--icon">
+									<div class="flaticon-price-tag"></div>
+								</div>
+								<div class="navigation-item--title">
+									News Promotion
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="history.html">
+							<div class="navigation-item">
+								<div class="navigation-item--icon">
+									<div class="flaticon-history"></div>
+								</div>
+								<div class="navigation-item--title">
+									History
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="b-reward.html">
+							<div class="navigation-item">
+								<div class="navigation-item--icon">
+									<div class="flaticon-cup"></div>
+								</div>
+								<div class="navigation-item--title">
+									B-reward
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="booking.html">
+							<div class="navigation-item">
+								<div class="navigation-item--icon">
+									<div class="flaticon-calendar"></div>
+								</div>
+								<div class="navigation-item--title">
+									Booking
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="gift-card.html">
+							<div class="navigation-item">
+								<div class="navigation-item--icon">
+									<div class="flaticon-gift-box"></div>
+								</div>
+								<div class="navigation-item--title">
+									Gift card
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="staff.html">
+							<div class="navigation-item">
+								<div class="navigation-item--icon">
+									<div class="flaticon-users"></div>
+								</div>
+								<div class="navigation-item--title">
+									Staff
+								</div>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="profile.html">
+							<div class="navigation-item">
+								<div class="navigation-item--icon">
+									<div class="flaticon-resume"></div>
+								</div>
+								<div class="navigation-item--title">
+									Users
+								</div>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="header-notification">
+			<p class="title">
+				Today
+			</p>
+			<ul class="list-unstyled">
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="viewed">
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<p class="title">
+				Yesterday
+			</p>
+			<ul class="list-unstyled">
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="viewed">
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<p class="title">
+				Yesterday
+			</p>
+			<ul class="list-unstyled">
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li class="viewed">
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="notification-item">
+						<div class="notification-item--icon">
+							<a href="javascript:void(0)">
+								<i class="fal fa-bell"></i>
+							</a>
+						</div>
+						<div class="notification-item--content">
+							<a href="javascript:void(0)">
+								<div class="title">
+									Yêu cầu tham gia <b>Bnails Beautiful</b> của bạn đã được phê duyệt. Giờ bạn có thể
+									đăng và bình luận trong nhóm
+								</div>
+							</a>
+						</div>
+						<div class="notification-item--action">
+							<a href="javascript:void(0)" class="actionDelete">
+								<i class="fal fa-ellipsis-v"></i>
+							</a>
+						</div>
+						<div class="notification-item--delete">
+							<a href="javascript:void(0)">
+								<div class="_icon">
+									<i class="fal fa-times"></i>
+								</div>
+								<div class="_text">
+									Delete
+								</div>
+							</a>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</header>
+	<div class="app-content" id="b-reward">
+		<div class="reward-main">
+			<h3 class="title">Reward <span class="flaticon-cup"></span></h3>
+			<div class="reward-main--row">
+				<div class="reward-point">
+					<div class="_icon"><i class="flaticon-cup"></i></div>
+					<div class="_text"><span>Point:</span>830</div>
+				</div>
+			</div>
+			<div class="reward-main--row">
+				<div class="reward-discount">
+					<ul class="list-unstyled">
+						<li>
+							<div class="reward-discount--item">
+								<div class="_icon"><i class="flaticon-price-tag"></i></div>
+								<div class="_content">
+									<div class="_text"><span>Point:</span>830</div>
+									<div class="_subtext"><span>Point cần:</span>130</div>
+								</div>
+								<div class="_badge"><i class="fal fa-check"></i></div>
+							</div>
+						</li>
+						<li class="active">
+							<div class="reward-discount--item">
+								<div class="_icon"><i class="flaticon-price-tag"></i></div>
+								<div class="_content">
+									<div class="_text"><span>Point:</span>830</div>
+								</div>
+								<div class="_badge"><i class="fal fa-check"></i></div>
+							</div>
+						</li>
+						<li class="active">
+							<div class="reward-discount--item">
+								<div class="_icon"><i class="flaticon-price-tag"></i></div>
+								<div class="_content">
+									<div class="_text"><span>Point:</span>830</div>
+								</div>
+								<div class="_badge"><i class="fal fa-check"></i></div>
+							</div>
+						</li>
+						<li>
+							<div class="reward-discount--item">
+								<div class="_icon"><i class="flaticon-price-tag"></i></div>
+								<div class="_content">
+									<div class="_text"><span>Point:</span>830</div>
+									<div class="_subtext"><span>Point cần:</span>130</div>
+								</div>
+								<div class="_badge"><i class="fal fa-check"></i></div>
+							</div>
+						</li>
+						<li>
+							<div class="reward-discount--item">
+								<div class="_icon"><i class="flaticon-price-tag"></i></div>
+								<div class="_content">
+									<div class="_text"><span>Point:</span>830</div>
+									<div class="_subtext"><span>Point cần:</span>130</div>
+								</div>
+								<div class="_badge"><i class="fal fa-check"></i></div>
+							</div>
+						</li>
+						<li>
+							<div class="reward-discount--item">
+								<div class="_icon"><i class="flaticon-price-tag"></i></div>
+								<div class="_content">
+									<div class="_text"><span>Point:</span>830</div>
+									<div class="_subtext"><span>Point cần:</span>130</div>
+								</div>
+								<div class="_badge"><i class="fal fa-check"></i></div>
+							</div>
+						</li>
+						<li class="active">
+							<div class="reward-discount--item">
+								<div class="_icon"><i class="flaticon-price-tag"></i></div>
+								<div class="_content">
+									<div class="_text"><span>Point:</span>830</div>
+								</div>
+								<div class="_badge"><i class="fal fa-check"></i></div>
+							</div>
+						</li>
+						<li>
+							<div class="reward-discount--item">
+								<div class="_icon"><i class="flaticon-price-tag"></i></div>
+								<div class="_content">
+									<div class="_text"><span>Point:</span>830</div>
+									<div class="_subtext"><span>Point cần:</span>130</div>
+								</div>
+								<div class="_badge"><i class="fal fa-check"></i></div>
+							</div>
+						</li>
+					
+					</ul>
+				</div>
+			</div>
+			<div class="reward-main--row"></div>
+		</div>
+	</div>
+	<footer class="footer">
+		<ul class="list-unstyled">
+			<li class="active">
+				<a href="booking.html">
+					<div class="footer-icon">
+						<i class="fas fa-calendar-alt"></i>
+					</div>
+					<div class="footer-text">
+						Booking
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="index.html">
+					<div class="footer-icon">
+						<i class="fas fa-home-lg-alt"></i>
+					</div>
+					<div class="footer-text">
+						Home
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="profile.html">
+					<div class="footer-icon">
+						<i class="fas fa-clipboard-user"></i>
+					</div>
+					<div class="footer-text">
+						Profile
+					</div>
+				</a>
+			</li>
+		</ul>
+	</footer>
+</div>
+
+<script type="text/javascript" src="./assets/plugins/jquery.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/bootstrap/popper.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/fancybox/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="./assets/plugins/lazyload.js"></script>
+<script type="text/javascript" src="./assets/plugins/theme-script.js"></script>
+
+</body>
+</html>
